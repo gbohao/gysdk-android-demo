@@ -31,7 +31,7 @@ public class MainActivity extends ComponentActivity {
             // 配置主题色
             options.setThemeColor("#2196F3");
             // 配置列表页面标题，默认"亘元有量"
-            options.setTitle("");
+            options.setTitle("亘元有量Demo");
             // 配置微信appId，如果需要打开微信小程序则必须设置
             options.setWxAppId("");
             try {
