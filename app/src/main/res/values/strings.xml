@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">亘元SDK Demo</string>
+    <string name="app_name">亘元SDK Demo(d)</string>
+    <string name="sdk_version">当前 SDK 版本：v%s</string>
 </resources>

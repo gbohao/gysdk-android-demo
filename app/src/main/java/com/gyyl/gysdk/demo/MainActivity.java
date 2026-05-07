@@ -1,6 +1,7 @@
 package com.gyyl.gysdk.demo;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.activity.ComponentActivity;
 import androidx.annotation.Nullable;
@@ -14,6 +15,9 @@ public class MainActivity extends ComponentActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView version = findViewById(R.id.tv_version);
+        version.setText(getResources().getString(R.string.sdk_version, GYSdk.getSdkVersion()));
 
         findViewById(R.id.btn_start_sdk).setOnClickListener(v -> {
 
