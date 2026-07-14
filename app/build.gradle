@@ -64,5 +64,5 @@ dependencies {
 
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android:6.8.24'
 
-    implementation files('libs/gysdk_v0.3_19.aar')
+    implementation files('libs/gysdk_v0.6_26.aar')
 }
