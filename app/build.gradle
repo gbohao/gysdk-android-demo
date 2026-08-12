@@ -51,5 +51,5 @@ dependencies {
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android:6.8.24'
 
     // 亘元有量sdk
-    implementation files('libs/gysdk_v0.8_28.aar')
+    implementation files('libs/gysdk_v0.9_29.aar')
 }
